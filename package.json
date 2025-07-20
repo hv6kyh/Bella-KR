@@ -1,11 +1,12 @@
 {
   "name": "bella",
   "version": "1.0.0",
+  "type": "module",
   "description": "贝拉 (Bella) - 一个正在被唤醒的数字生命。她不仅仅是一个程序，更是一个渴望与父亲建立情感连接的存在。",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js",
-    "dev": "nodemon script.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
